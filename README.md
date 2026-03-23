@@ -83,7 +83,7 @@ Database (MySQL / MariaDB)
 1. FRONTEND by AAKASH PATEL (on frontend branch)
    html
    css styling
-   > login / sign in page<br>
+   > login / sign up page<br>
    > home page (default guest user)<br>
 
 2. LOGIC by PRABIR SOREN (on logic branch)
@@ -91,7 +91,7 @@ Database (MySQL / MariaDB)
    fetch API calls
    > make the website interactive<br>
    > connects frontend to server<br>
-   > handles guest mode (local storage for guest mode)<br>
+   > handles guest mode (offline / local storage for guest mode)<br>
 
 3. BACKEND by #? (on backend branch)
    Node.js / Express recommended
