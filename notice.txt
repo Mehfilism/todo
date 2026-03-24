@@ -1,0 +1,3 @@
+The codes are only meant for the sample understanding structure. We will ultimately have to learn and write codes on our own.
+
+NOTE: The sample code has been uploded tentatively for better understanding of what we have to follow through.

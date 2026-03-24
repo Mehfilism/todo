@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- UI: guest + account switching -->
+  <section id="auth-section">
+    <h1>To-Do List</h1>
+    <div id="guest-mode">
+      <button id="guest-btn">Use as Guest</button>
+    </div>
+    <div id="account-mode">
+      <form id="signup-form">
+        <!-- signup fields -->
+        <input type="text" id="signup-name" placeholder="Name" required />
+        <input type="text" id="signup-nickname" placeholder="Nickname" />
+        <input type="text" id="signup-bio" placeholder="Bio" />
+        <input type="text" id="signup-profession" placeholder="Profession" />
+        <input type="email" id="signup-email" placeholder="Email" required />
+        <input type="password" id="signup-password" placeholder="Password" required />
+        <button type="submit">Sign Up</button>
+      </form>
+      <form id="login-form">
+        <input type="email" id="login-email" placeholder="Email" required />
+        <input type="password" id="login-password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Core task interface -->
+  <section id="todo-section" style="display:none;">
+    <div id="profile-box">
+      <!-- profile info fills after login -->
+    </div>
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="New task" required />
+      <button type="submit">Add Task</button>
+    </form>
+    <ul id="todo-list"></ul>
+    <button id="logout-btn">Logout</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
