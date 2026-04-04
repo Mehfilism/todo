@@ -1,0 +1,11 @@
+# Aakash Patel (frontend)
+
+ workdone until now:
+ -made login,signup,taskpage
+ -connected every page
+
+ learn until now :
+ - html basics
+
+ learned on Apr 4, 2026:
+ -how to make task manager page
